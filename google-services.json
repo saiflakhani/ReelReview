@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "714808278419",
+    "firebase_url": "https://reelreview-95fab.firebaseio.com",
+    "project_id": "reelreview-95fab",
+    "storage_bucket": "reelreview-95fab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714808278419:android:df345da5d83e5d3f",
+        "android_client_info": {
+          "package_name": "com.example.sharulogin.reelreview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714808278419-ra30kra2g6rhgrvgcbvqf09lk9ucthuk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqyiYFoZ4Wv8wX4ehwhjvaHznoCu4Q2Gg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
