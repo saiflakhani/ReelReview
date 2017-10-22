@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        fontPath="fonts/TitilliumWeb-Bold.ttf"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/dBtitle"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type your review..."
+        android:id="@+id/dBReview"
+        android:layout_marginTop="30dp"
+        fontPath="fonts/TitilliumWeb-Regular.ttf"
+        android:layout_below="@+id/ratingBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <requestFocus/>
+    </EditText>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/dBtitle"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

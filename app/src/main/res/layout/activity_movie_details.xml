@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context="com.example.sharulogin.reelreview.ListOfMovies">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rLLogoBar"
+        android:layout_marginBottom="10dp">
+        <ImageView
+            android:id="@+id/logoDetails"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp" />
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_below="@+id/logoDetails"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="Movie Name"
+            android:id="@+id/tVmovieName"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:id="@+id/iVPoster" />
+
+        <TextView
+            android:id="@+id/tVmovieDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/iVPoster"
+            android:layout_toRightOf="@+id/iVPoster"
+            android:maxLines="10"
+            fontPath="fonts/TitilliumWeb-Regular.ttf"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tVGenreHeader"
+            android:text="Genres : "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            fontPath="fonts/TitilliumWeb-Bold.ttf" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tVGenreDetails"
+            android:text="Genres here"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/tVGenreHeader"
+            fontPath="fonts/TitilliumWeb-Regular.ttf" />
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tVRuntimeHeader"
+            android:text="Runtime : "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            fontPath="fonts/TitilliumWeb-Bold.ttf" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tVRunDetails"
+            android:text="Runtime here"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/tVRuntimeHeader"
+            fontPath="fonts/TitilliumWeb-Regular.ttf" />
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_marginBottom="10dp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tVLanguageHeader"
+            android:text="Languages : "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            fontPath="fonts/TitilliumWeb-Bold.ttf" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tVLanguageDetails"
+            android:text="Languages here"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/tVLanguageHeader"
+            fontPath="fonts/TitilliumWeb-Regular.ttf" />
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tVAdultHeader"
+            android:text="Adult : "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            fontPath="fonts/TitilliumWeb-Bold.ttf" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tVAdultDetails"
+            android:text="Yes"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/tVAdultHeader"
+            fontPath="fonts/TitilliumWeb-Regular.ttf" />
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reviews :"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/tVReviewHeader"
+            android:layout_marginBottom="10dp"
+            fontPath="fonts/TitilliumWeb-Regular.ttf" />
+
+        <ListView
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_below="@id/tVReviewHeader"
+            android:id="@+id/lvReviewCurrentMovie"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+        </ListView>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:background="#000000"
+        android:id="@+id/rLReview"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fontPath="fonts/TitilliumWeb-Bold.ttf"
+            android:text="Review this Film"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+    </ScrollView>

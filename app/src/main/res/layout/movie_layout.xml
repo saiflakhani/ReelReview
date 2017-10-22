@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.sharulogin.reelreview.CustomLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:padding="10dp"
+    android:id="@+id/lLmovieAdapterParent"
+    android:background="#000000">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:id="@+id/rlmovie1"
+        android:layout_above="@+id/rlmovie2"
+        android:layout_marginBottom="20dp"
+        >
+
+        <TextView
+            android:id="@+id/titleMovie"
+            android:textStyle="bold"
+            android:lines="2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="#FFFFFF"
+            android:text="MEOW"
+            fontPath="fonts/TitilliumWeb-Bold.ttf"
+            android:textSize="18sp"
+            tools:ignore="MissingPrefix" />
+
+        <ImageView
+            android:id="@+id/bkmrk"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/bookmark" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/rlmovie2"
+        >
+
+        <TextView
+            android:id="@+id/tVRelease"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            fontPath="fonts/TitilliumWeb-Bold.ttf"
+            android:text="DateOfRelease"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+
+</com.example.sharulogin.reelreview.CustomLayout>
